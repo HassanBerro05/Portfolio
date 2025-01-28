@@ -3,9 +3,9 @@ import ProjectSection from '@/components/projectSection';
 import { getProjectsData } from "@/lib/projects";
 
 export const metadata = {
-    title: 'Projects - Andrew Ye',
+    title: 'Projects - Hassan Berro',
     icons: {
-        icon: '/logo.png',
+        icon: '/H.jpg',
     },
 }
 
@@ -13,7 +13,7 @@ export default async function Projects() {
     const projectsData = await getProjectsData();
     return (
         <div>
-            <section className='pt-24 pb-10 bg-gradient-to-t from-slate-300 dark:from-slate-700 via-gray-200 dark:via-gray-800 to-slate-300 dark:to-slate-700'>
+            <section className='pt-24 pb-10 bg-gradient-to-t from-py-10 bg-michiganBlue'>
                 <h1 className='text-3xl font-bold text-center'>
                     Selected Projects 
                 </h1>

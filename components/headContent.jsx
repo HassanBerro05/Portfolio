@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 export default function HeadContent({ title, description }) {
-    const faviconUrl = "logo.png"
+    const faviconUrl = "H.jpg"
     return (
         <Head>
             <title>{title}</title>

@@ -40,7 +40,7 @@ export default function ProjectSection({ data }) {
         <section className="container mx-auto px-2 py-10 relative">
             {data.map((project, index) => (
                 <div key={index} className="mb-10">
-                    <div className="bg-slate-400 dark:bg-slate-600 drop-shadow p-4 rounded-lg w-full">
+                    <div className="from-py-10 bg-michiganBlue drop-shadow p-4 rounded-lg w-full">
                         <div className="flex flex-col md:flex-row items-center md:items-start">
                             <div className="w-full md:w-1/2 p-4">
                                 <ProjectImage image={project.desktopImage} name={project.name} />

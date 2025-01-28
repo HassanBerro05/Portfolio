@@ -31,6 +31,8 @@ module.exports = {
       colors: {
         primary: '',
         secondary: '',
+        michiganBlue: '#00274C',
+        maize: '#FFCB05'
       },
     },
   },

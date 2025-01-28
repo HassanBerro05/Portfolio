@@ -3,9 +3,9 @@ import Footer from '@/components/footer';
 import Button from '@/components/button';
 
 export const metadata = {
-    title: 'Resume - Andrew Ye',
+    title: 'Resume - Hassan Berro',
     icons: {
-        icon: '/logo.png',
+        icon: '/H.jpg',
         // shortcut: '/shortcut-icon.png',
         // apple: '/apple-icon.png',
         // other: {
@@ -18,94 +18,81 @@ export const metadata = {
 export default function Resume() {
     const resume = [
         {
-            role: "Research Assistant – Data Science",
-            dates: "Mar 2023 – Present",
-            company: "Stephen M. Ross School of Business; Business Strategy Unit",
-            location: "Ann Arbor, MI",
-            image: "/logos/umich-ross.jpeg",
+            role: "Business Financial Analyst",
+            dates: "Jan 2024 – Jan 2025",
+            company: "Siyana; Business Strategy Unit",
+            location: "Beirut, LB",
+            image: "/logos/siyana.png",
             bullets: [
                 {
-                    text: "Led data engineering and analytics workstream on research project to determine impact of company mission on candidate attraction",
+                    text: "Siyana is a startup maintenance service provider company with an office in Beirut (LB)",
                     subBullets: [
-                        "Developed a custom script to efficiently download and organize data from 5,000 candidate resumes, streamlining the experimental data intake process",
-                        "Engineered an applicant tracking system and server to manage candidate applications and track communication history, enhancing operational transparency",
-                        "Conducted an in-depth analysis of demographic factors (race, ethnicity, gender) and their impact on candidate perception of company attractiveness, providing actionable insights for diversity and inclusion initiatives"
+                        "Developed 5+ Tableau dashboards bringing visibility to the sales funnel, improving overall efficiency ",
+                        "Partnered with the IT department to design a database for seamless data integration and functionality, enabling sales teams to log visits and outcomes",
+                        "Forecasted company financials including revenues, expenses, and cash flows, improving projection accuracy by 15%",
+                        "Collaborated with sales, marketing, and technician teams to develop a new subscription model, ultimately receiving c-suite approval",
+                        "Conducted market analysis to evaluate potential, strengths, and weaknesses, leading to a 20% increase in client acquisition within the first quarter",
+                        "Drafted and presented a seed round pitch deck, raising $100k in investment from three investment partners"
                     ]
                 },
+                
+                
+            ]
+        },
+        {
+            role: "Capstone Project Data Analyst",
+            dates: "Jan 2023 – May 2023",
+            company: "U-M Ann Arbor; Information Technology and Services Departmentt",
+            location: "Ann Arbor, MI",
+            image: "/logos/ITS.png",
+            bullets: [
                 {
-                    text: "Developed new data intake strategy and operating model to accelerate project timelines for research project by 90%",
+                    text: "ITS is the information and Technology Services department that provides technology and communications services in support of UM-Ann Arbor's academic and research needs",
                     subBullets: [
-                        "Analyzed and aggregated Saudi Arabian financial statements, designing an algorithm to automate data extraction, comparison, and accuracy checks, reducing required manpower",
-                        "Developed and implemented a new standard operating procedure for the team to increase efficiency of data management, including data collection, cleanup, and analysis; process scaled to entire research group"
+                        "Analyzed accessibility tool usage with SQL across 800 online courses, identifying key enhancements that increased course material availability for 3000 students with disabilities",
+                        "Crafted 30+ interactive dashboards in Tableau, showcasing accessibility tool usage trends for 135 faculty members, resulting in the creation of courses to address low usage",
+                        "Designed actionable metrics to measure accessibility improvement, including error remediation rates and user engagement, driving continuous enhancement in course design",
+                        "Coordinated efforts with cross-functional teams, including ITS stakeholders, to align project deliverables with institutional accessibility goals and policies",
+                        "Implemented advanced data manipulation techniques to cleanse and structure UDOIT-generated datasets, ensuring accurate insights for strategic decision-making"
+                        
                     ]
                 }
             ]
         },
         {
-            role: "Research Assistant",
-            dates: "May 2022 – Jul 2023",
-            company: "College of LSA; American Culture Department",
-            location: "Ann Arbor, MI",
-            image: "/logos/umich-lsa.jpeg",
+            role: "Commercial Banking Intern",
+            dates: "June 2019 – Sep 2019",
+            company: "Credit Department",
+            location: "Beirut, LB",
+            image: "/logos/BSL.jpeg",
             bullets: [
                 {
+                    text: "BSL bank is a mid-sized bank in Lebanon that operates in the retail and commercial banking sector alongside the treasury and capital markets",
                     subBullets: [
-                        "Cross-referenced multiple sources, studied media narratives, and analyzed politician responses to document 100+ detailed incidents of how AAPI community experienced and combated COVID-19 related harassment",
-                        "Reviewed and analyzed articles to identify relevant hate crime information for research scope, managing database cleanliness by deduplicating and updating entries to ensure accuracy and consistency over time",
-                        "Identified communication inefficiencies and convinced supervisor to adopt Slack instead of email to preserve information continuity for other research assistants across the lab"
+                        "Assisted with daily transactions, which increased customer satisfaction by 15% based on surveys",
+                        "Supported financial operations by ensuring accuracy and reliability in daily transactions",
+                       
                     ]
                 }
             ]
-        },
-        {
-            role: "Vice President of External Affairs",
-            dates: "Jan 2022 – May 2024",
-            company: "Michigan Data Science Team",
-            location: "Ann Arbor, MI",
-            image: "/logos/mdst.png",
-            bullets: [
-                {
-                    subBullets: [
-                        "Launched “Data Science for Everyone” initiative and started a recruiting campaign by coordinating with 6 academic departments to host an exploration fair; resulted in 150% increase in applications (350 received in total)",
-                        "Negotiated with Fortune 500 corporations to secure $1.9k in funding for cloud infrastructure",
-                        "Coordinated five company events to connect 200+ students to potential data-driven careers in diverse range of industries and empowering them to engage with emerging technologies",
-                        "Led team of three to redesign club’s website and standardized fonts, style, and graphic designs, growing traffic by 50%"
-                    ]
-                }
-            ]
-        },
-        {
-            role: "Founding Member & Head of Outreach",
-            dates: "Jul 2023 – May 2024",
-            company: "M-Hub",
-            image: "/logos/m-hub.png",
-            location: "Ann Arbor, MI",
-            bullets: [
-                {
-                    subBullets: [
-                        "Co-founded a club to connect undergraduates with faculty for career advancement and professional development, hosted 5 professors for speaker events for the first semester",
-                        "Collaborated with team of 5 people to start Ross Business Review: a journal devoted to highlight research at Ross; designed and built website to disseminate information about the mission "
-                    ]
-                }
-            ]
-
         }
+        
     ];
 
 
     return (
         <div>
-            <div className='bg-gradient-to-b from-slate-300 dark:from-slate-700 to-gray-200 dark:to-gray-800'>
+            <div className='bg-gradient-to-b from-py-10 bg-michiganBlue'>
                 <div className="container mx-auto px-2 py-32">
                     <h1 className='text-5xl font-extrabold text-center'>
                         My Resume
                     </h1>
                     <div className="py-4 text-center">
-                        <Button text="Download PDF" href="https://drive.google.com/file/d/1ICZUJ41CqQkDyAioV2dPQIp_K8br6vhJ/view?usp=sharing" />
+                        <Button text="Download PDF" href="https://drive.google.com/file/d/11GB0z_O56amZSzRtWnSLjqwYFb1mxwE4/view?usp=drive_link" />
                     </div>
                 </div>
             </div>
-            <section className='bg-gradient-to-t from-slate-300 dark:from-slate-700 to-gray-200 dark:to-gray-800'>
+            <section className='bg-gradient-to-t from-py-10 bg-michiganBlue'>
                 <div className="container mx-auto py-4 px-2">
                     <div className='py-2'>
                         <h2 className="text-3xl font-bold">
@@ -113,16 +100,29 @@ export default function Resume() {
                         </h2>
                         <div className="divider my-0"></div>
                         <Experience data={{
-                            "company": "GPA: 3.79/4.00, James B. Angell Scholar",
-                            "dates": "Aug 2021 - May 2024",
-                            "role": "Bachelor of Science in Data Science, University of Michigan",
-                            "location": "Ann Arbor, MI",
+                            "company": "GPA: 3.84/4.00, Dean's Honor List",
+                            "dates": "Jan 2022 - Dec 2023",
+                            "role": "Masters of Science in Business Analytics (Financial Analytics Concentration), University of Michigan",
+                            "location": "Dearborn, MI",
                             "image": "/logos/michigan.jpeg",
                         }} >
                             <p>
-                                <span className="font-bold">Coursework:</span> Game Theory, Applied Regression, Conversational AI, Intro Machine Learning, Data Structures & Algorithms, Intro
-                                Computer Security, Business Strategy, Micro & Macro Economics
+                                <span className="font-bold">Coursework:</span> Applied Statistical Modeling, Applied Forecasting, Data Mining for Business Applications, Decision Analysis, Management Science, Finance Fundament & Value Creation, Derivatives & Risk Management, Developing & Interpreting Financial Information
                             </p>
+                        </Experience>
+                    </div>
+                    <div className='py-2'>
+                        <h2 className="text-3xl font-bold">
+                        </h2>
+                        <div className="divider my-0"></div>
+                        <Experience data={{
+                            
+                            "dates": "Sep 2017 - May 2020",
+                            "role": "Bachelors of Science in Banking and Finance, Lebanese American University",
+                            "location": "Beirut, LB",
+                            "image": "/logos/LAU_Green_Logo.jpg",
+                        }} >
+                           
                         </Experience>
                     </div>
                     <div className='py-2'>
@@ -141,8 +141,8 @@ export default function Resume() {
 
 function Experience({ data, children }) {
     return (
-        <div className='p-4 border border-slate-700 dark:border-white my-6 rounded-lg'>
-            <div className="resume-grid mb-3">
+        <div className='p-4 border border-maize my-6 rounded-lg'>
+  <div className="resume-grid mb-3">
                 <Image className="w-[56px] h-[56px] mr-2 object-cover rounded row-span-2" width={56} height={56} src={data?.image} alt={`${data.company} logo`} />
                 <div>
                     <h3 className='font-bold'>{data.role}</h3>
