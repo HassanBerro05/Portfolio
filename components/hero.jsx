@@ -12,7 +12,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-2">
-          University of Michigan Data and Business Analyst graduate with a strong foundation in data, business, and financial analytics. I excel on solving complex problems, leveraging data-driven insights, and delivering impactful solutions. 
+          University of Michigan graduate currently seeking a data or business analyst role, with a strong foundation in data, business, and financial analytics. I excel on solving complex problems, leveraging data-driven insights, and delivering impactful solutions. 
           </p>
           <div className="flex justify-start gap-5 pt-2 flex-wrap">
 
