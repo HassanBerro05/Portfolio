@@ -21,7 +21,7 @@
         "description": "This project involves analyzing and forecasting the monthly call volume for Farmers’ Financial Company's call center using historical data. Key objectives include identifying trends, seasonality, and overall patterns in call volume to determine if additional staff are needed.",
         "keywords": "Time Series Analysis, Trend Analysis, Seasonality Detection, Winters’ Smoothing, ARIMA Modeling, Decomposition Method, Regression Analysis, Demand Forecasting,Staffing Optimization",
         "techStack": ["Microsoft Excel","MiniTab","Regression Analysis", "Time Series Analysis","Statistical Modelling"],
-        "desktopImage": "/FR.webp"
+        "desktopImage": "/CC.png"
     },
     {
         "name": "Optimizing Decision Making at Real Madrid CF",
