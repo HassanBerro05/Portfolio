@@ -18,7 +18,7 @@ export const metadata = {
 export default function Resume() {
     const resume = [
         {
-            role: "Business Analyst",
+            role: "Business Analyst (Data Analyst)",
             dates: "Jan 2024 – Jan 2025",
             company: "Siyana; Business Strategy Unit",
             location: "Beirut, LB",
@@ -27,12 +27,12 @@ export default function Resume() {
                 {
                     text: "Siyana is a startup maintenance service provider company with an office in Beirut (LB)",
                     subBullets: [
-                        "Developed 5+ Tableau dashboards bringing visibility to the sales funnel, improving overall efficiency ",
-                        "Partnered with the IT department to design a database for seamless data integration and functionality, enabling sales teams to log visits and outcomes",
-                        "Forecasted company financials including revenues, expenses, and cash flows, improving projection accuracy by 15%",
-                        "Collaborated with sales, marketing, and technician teams to develop a new subscription model, ultimately receiving c-suite approval",
-                        "Conducted market analysis to evaluate potential, strengths, and weaknesses, leading to a 20% increase in client acquisition within the first quarter",
-                        "Drafted and presented a seed round pitch deck, raising $100k in investment from three investment partners"
+                        "Designed and implemented scalable data pipelines using SQL and Tableau, automating reporting and reducing manual processing by 50%.",
+                        "Developed interactive dashboards that boosted sales visibility and increased pipeline conversion rates by 30%, enabling data-driven strategic decisions.",
+                        "Leveraged predictive analytics to refine revenue projections, enhancing financial forecasting accuracy by 15%.",
+                        "Built a customer segmentation model with machine learning, improving targeted marketing efficiency by 20%.",
+                        "Spearheaded cross-functional collaboration between IT, Sales, and Marketing to launch a subscription-based revenue model, driving a 25% increase in recurring revenue.",
+                        " Crafted a compelling investor pitch deck that secured $100K in funding, fueling company expansion and service enhancements."
                     ]
                 },
                 
@@ -49,11 +49,11 @@ export default function Resume() {
                 {
                     text: "ITS is the information and Technology Services department that provides technology and communications services in support of UM-Ann Arbor's academic and research needs",
                     subBullets: [
-                        "Analyzed accessibility tool usage with SQL across 800 online courses, identifying key enhancements that increased course material availability for 3000 students with disabilities",
-                        "Crafted 30+ interactive dashboards in Tableau, showcasing accessibility tool usage trends for 135 faculty members, resulting in the creation of courses to address low usage",
-                        "Designed actionable metrics to measure accessibility improvement, including error remediation rates and user engagement, driving continuous enhancement in course design",
-                        "Coordinated efforts with cross-functional teams, including ITS stakeholders, to align project deliverables with institutional accessibility goals and policies",
-                        "Implemented advanced data manipulation techniques to cleanse and structure UDOIT-generated datasets, ensuring accurate insights for strategic decision-making"
+                        "Analyzed accessibility tool usage across 800+ online courses, driving policy changes that improved digital accessibility for over 3,000 students.",
+                        "Designed and implemented engaging Tableau dashboards to deliver clear insights on compliance, boosting faculty engagement by 40%.",
+                        "Developed custom KPIs that streamlined institutional tracking and reporting, leading to measurable improvements in digital accessibility.",
+                        "Optimized data transformation workflows, reducing report generation time by 50% and accelerating data-driven decision-making.",
+                        "Facilitated collaborative discussions with faculty to effectively integrate analytics-driven recommendations into course design."
                         
                     ]
                 }
@@ -69,8 +69,11 @@ export default function Resume() {
                 {
                     text: "BSL bank is a mid-sized bank in Lebanon that operates in the retail and commercial banking sector alongside the treasury and capital markets",
                     subBullets: [
-                        "Assisted with daily transactions, which increased customer satisfaction by 15% based on surveys",
-                        "Supported financial operations by ensuring accuracy and reliability in daily transactions",
+                        "Analyzed financial statements to streamline credit assessments, cutting loan turnaround time by 30%.",
+                        "Supported risk assessments by identifying high-risk clients and mitigating financial exposure.",
+                        "Automated client data tracking, boosting data accuracy by 20% and ensuring regulatory compliance.",
+                        "Developed benchmarking reports that informed loan structuring and investment decisions.",
+                        "Cultivated strong client relationships through proactive financial guidance, enhancing customer satisfaction."
                        
                     ]
                 }
@@ -88,7 +91,7 @@ export default function Resume() {
                         My Resume
                     </h1>
                     <div className="py-4 text-center">
-                        <Button text="Download PDF" href="https://drive.google.com/file/d/11GB0z_O56amZSzRtWnSLjqwYFb1mxwE4/view?usp=drive_link" />
+                        <Button text="Download PDF" href="https://drive.google.com/file/d/1Q6XbJMfE9dYadqWgRKL8rlP_kKkkShPe/view?usp=sharing" />
                     </div>
                 </div>
             </div>
