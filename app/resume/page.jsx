@@ -91,7 +91,7 @@ export default function Resume() {
                         My Resume
                     </h1>
                     <div className="py-4 text-center">
-                        <Button text="Download PDF" href="https://drive.google.com/file/d/1Q6XbJMfE9dYadqWgRKL8rlP_kKkkShPe/view?usp=sharing" />
+                        <Button text="Download PDF" href="https://drive.google.com/file/d/1DSVT27rw8az0m33HfqRGaBq7VKS8qvm3/view?usp=sharing" />
                     </div>
                 </div>
             </div>
