@@ -27,12 +27,12 @@ export default function Resume() {
                 {
                     text: "Siyana is a startup maintenance service provider company with an office in Beirut (LB)",
                     subBullets: [
-                        "Designed and implemented scalable data pipelines using SQL and Tableau, automating reporting and reducing manual processing by 50%.",
-                        "Developed interactive dashboards that boosted sales visibility and increased pipeline conversion rates by 30%, enabling data-driven strategic decisions.",
-                        "Leveraged predictive analytics to refine revenue projections, enhancing financial forecasting accuracy by 15%.",
+                        "Designed scalable data pipelines using SQL and Tableau, automating reporting and reducing manual processing by 50%.",
+                        "Built interactive dashboards that enhanced sales visibility and increased pipeline conversion rates by 30%, leading to improved strategic decision-making.",
+                        "Conducted advanced financial forecasting, leveraging predictive analytics to refine revenue projections, leading to a 15% improvement in budget accuracy.",
                         "Built a customer segmentation model with machine learning, improving targeted marketing efficiency by 20%.",
-                        "Spearheaded cross-functional collaboration between IT, Sales, and Marketing to launch a subscription-based revenue model, driving a 25% increase in recurring revenue.",
-                        " Crafted a compelling investor pitch deck that secured $100K in funding, fueling company expansion and service enhancements."
+                        "Orchestrated cross-functional collaboration between IT, Sales, and Marketing to develop a subscription-based revenue model, securing executive buy-in and increasing recurring revenue by 25%.",
+                        " Created a high-impact investor pitch deck, resulting in $250K in secured funding, directly fueling company expansion."
                     ]
                 },
                 
@@ -49,10 +49,10 @@ export default function Resume() {
                 {
                     text: "ITS is the information and Technology Services department that provides technology and communications services in support of UM-Ann Arbor's academic and research needs",
                     subBullets: [
-                        "Analyzed accessibility tool usage across 800+ online courses, driving policy changes that improved digital accessibility for over 3,000 students.",
-                        "Designed and implemented engaging Tableau dashboards to deliver clear insights on compliance, boosting faculty engagement by 40%.",
-                        "Developed custom KPIs that streamlined institutional tracking and reporting, leading to measurable improvements in digital accessibility.",
-                        "Optimized data transformation workflows, reducing report generation time by 50% and accelerating data-driven decision-making.",
+                        "Conducted a deep dive analysis of accessibility tool usage across 800+ online courses, leading to policy changes that improved accessibility for 3,000+ students.",
+                        "Engineered Tableau dashboards to provide clear visual insights into accessibility compliance, increasing faculty engagement by 40%.",
+                        "Developed custom key performance indicators (KPIs) that enhanced institutional tracking and reporting, resulting in measurable improvements in digital accessibility.",
+                        "Utilized R programming tool for advanced statistical data analysis, detecting trends, anomalies, and inefficiencies.",
                         "Facilitated collaborative discussions with faculty to effectively integrate analytics-driven recommendations into course design."
                         
                     ]
