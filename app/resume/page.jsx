@@ -18,7 +18,7 @@ export const metadata = {
 export default function Resume() {
     const resume = [
         {
-            role: "Business Analyst (Data Analyst)",
+            role: "Business Analyst",
             dates: "Jan 2024 – Jan 2025",
             company: "Siyana; Business Strategy Unit",
             location: "Beirut, LB",
