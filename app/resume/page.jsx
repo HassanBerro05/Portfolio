@@ -3,7 +3,7 @@ import Footer from '@/components/footer';
 import Button from '@/components/button';
 
 export const metadata = {
-    title: 'Resume - Hassan Berro',
+    title: 'Resume - Sam Berro',
     icons: {
         icon: '/H.jpg',
         // shortcut: '/shortcut-icon.png',
@@ -91,7 +91,7 @@ export default function Resume() {
                         My Resume
                     </h1>
                     <div className="py-4 text-center">
-                        <Button text="Download PDF" href="https://drive.google.com/file/d/1qHc-pX_9iEhec7qunvuRtLkRSoVF6aB4/view?usp=sharing" />
+                        <Button text="Download PDF" href="https://drive.google.com/file/d/17rDxAyJ7ki2vNTxN8yUbzpLxWmHhu_HB/view?usp=sharing" />
                     </div>
                 </div>
             </div>
