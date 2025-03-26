@@ -8,7 +8,7 @@ export default function Hero() {
           <h1 className="text-5xl font-extrabold self-align-center">
             I&apos;m{' '}
             <span className style={{ color: '#FFCB05' }}>
-              Hassan
+              Sam
             </span>
           </h1>
           <p className="mt-2">
