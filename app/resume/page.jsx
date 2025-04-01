@@ -27,7 +27,7 @@ export default function Resume() {
                 {
                     text: "Siyana is a startup maintenance service provider company with an office in Beirut (LB)",
                     subBullets: [
-                        "Designed scalable data pipelines using SQL and Tableau, automating reporting and reducing manual processing by 50%.",
+                        "Designed data pipelines using SQL and Power BI, automating reporting and reducing manual processing by 50%.",
                         "Built interactive dashboards that enhanced sales visibility and increased pipeline conversion rates by 30%, leading to improved strategic decision-making.",
                         "Conducted advanced financial forecasting, leveraging predictive analytics to refine revenue projections, leading to a 15% improvement in budget accuracy.",
                         "Built a customer segmentation model with machine learning, improving targeted marketing efficiency by 20%.",
