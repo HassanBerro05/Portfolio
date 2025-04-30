@@ -51,7 +51,7 @@ export default function Resume() {
                         "Conducted a deep dive analysis of accessibility tool usage across 800+ online courses, leading to policy changes that improved accessibility for 3,000+ students.",
                         "Engineered Tableau dashboards to provide clear visual insights into accessibility compliance, increasing faculty engagement by 40%.",
                         "Developed custom key performance indicators (KPIs) that enhanced institutional tracking and reporting, resulting in measurable improvements in digital accessibility.",
-                        "Utilized R programming tool for advanced statistical data analysis, detecting trends, anomalies, and inefficiencies.",
+                        "Utilized Excel tool for advanced statistical data analysis, detecting trends, anomalies, and inefficiencies.",
                         "Facilitated collaborative discussions with faculty to effectively integrate analytics-driven recommendations into course design."
                         
                     ]
