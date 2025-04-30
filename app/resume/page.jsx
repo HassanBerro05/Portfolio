@@ -27,12 +27,11 @@ export default function Resume() {
                 {
                     text: "Siyana is a startup maintenance service provider company with an office in Beirut (LB)",
                     subBullets: [
-                        "Designed data pipelines using SQL and Power BI, automating reporting and reducing manual processing by 50%.",
-                        "Built interactive dashboards that enhanced sales visibility and increased pipeline conversion rates by 30%, leading to improved strategic decision-making.",
+                        "Designed, documented, and tested the sales team portal, leading User Acceptance Testing (UAT) and regression testing to ensure reliable output, which reduced reporting time by 30% and increased operational efficiency.",
+                        "Managed stakeholder communication, gathering input from cross-functional teams (sales, IT, management) to align portal features with business needs, resulting in a 25% improvement in user adoption and continuous portal enhancements.",
                         "Conducted advanced financial forecasting, leveraging predictive analytics to refine revenue projections, leading to a 15% improvement in budget accuracy.",
-                        "Built a customer segmentation model with machine learning, improving targeted marketing efficiency by 20%.",
-                        "Orchestrated cross-functional collaboration between IT, Sales, and Marketing to develop a subscription-based revenue model, securing executive buy-in and increasing recurring revenue by 25%.",
-                        " Created a high-impact investor pitch deck, resulting in $250K in secured funding, directly fueling company expansion."
+                        "Analyzed financial data to develop a subscription-based revenue model, working with IT, Sales, and Marketing to ensure profitability and secure executive buy-in, resulting in a 25% increase in recurring revenue."
+            
                     ]
                 },
                 
