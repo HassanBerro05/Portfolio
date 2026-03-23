@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="py-10 bg-michiganBlue">
       <div className="container mx-auto px-2 py-32 flex items-center content-between flex-col-reverse sm:flex-row gap-4">
-        <div className="sm:w-2/3 lg:w-1/2">
+        <div className="sm:w-2/3 lg:w-1/2 text-center flex flex-col items-center justify-center">
           <h1 className="text-5xl font-extrabold self-align-center">
             I&apos;m{' '}
             <span className style={{ color: '#FFCB05' }}>
