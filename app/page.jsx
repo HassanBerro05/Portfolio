@@ -27,27 +27,23 @@ export default async function Home() {
 
 
         <div className='container mx-auto px-2 flex items-center content-between flex-col lg:flex-row gap-4'>
-          <Image
-            className="rounded h-[600px] w-[600px] object-cover lg:mr-auto "
-            width={600}
-            height={600}
-            src="/Dive.jpg"
-            alt="Dive"
-          />
+         
           <div className='lg:w-1/2'>
-            <h2 className='text-3xl font-bold mb-2'>AA little more about me</h2>
-            <p className='mb-2'>My academic journey, encompassing a Master&rsquo;s in Business Analytics and a Bachelor&rsquo;s in Banking and Finance, has provided me with a solid foundation in data analysis, financial modeling, and strategic decision-making. This combination of analytical and business acumen allows me to approach challenges with a holistic perspective, bridging the gap between data insights and actionable solutions.</p>
+            <h2 className='text-3xl font-bold mb-2'>A little more about me</h2>
+            <p className='mb-2'> I hold a Master’s degree in Business Analytics and a Bachelor’s degree in Banking and Finance. My background combines analytical thinking, financial understanding, and business problem-solving, allowing me to connect data insights with practical business action.</p>
 
-            <p className="mb-2"> I am currently embarking on a new chapter in my career, driven by a passion for leveraging data to solve real-world problems. As a lifelong learner, I am always eager to expand my knowledge and stay ahead in this ever-evolving field. My recent projects include developing analytical models to address pressing issues like the Flint Water Crisis and evaluating tools like UDOIT to enhance accessibility in education. I am actively seeking opportunities where I can apply my data skills, contribute meaningfully, and continue to grow both personally and professionally. Through my work, I aim to make a lasting impact while embracing continuous learning and development.
-
+            <p className="mb-2"> In my current work, I support finance and business processes through SAP-related analysis, data validation, reporting, reconciliation support, dashboard development, and workflow improvement. I have worked on projects involving Power BI, Power Query, Excel, SQL, Tableau, and process automation to improve visibility, reduce manual effort, and support operational decision-making.
 </p>
+
+          <p className="mb-2">  I am especially interested in roles that sit between business, data, systems, and process improvement. My goal is to continue growing as a Business Analyst while building deeper expertise in analytics, automation, and technology-driven transformation.
+</p>
+
             
             <h2 className='text-2xl font-bold mb-2'>Core Skills</h2>
-            <p className="mb-2">I bring a robust skill set essential for data analysis and business intelligence. Proficient in programming languages such as SQL, I excel at data cleaning, transformation, and visualization to derive actionable insights. I have experience with Tableau for creating interactive dashboards, as well as advanced Excel for modeling and reporting.</p>
+            <p className="mb-2"> I am especially interested in roles that sit between business, data, systems, and process improvement. My goal is to continue growing as a Business Analyst while building deeper expertise in analytics, automation, and technology-driven transformation.</p>
             
             <h2 className='text-2xl font-bold mb-2'>Interests</h2>
-            <p className='mb-4'>When I&rsquo;m not working with data, I enjoy reading about the latest trends in politics, technology, and Finance. I&rsquo;m also passionate about cooking and nature. I enjoy going to Michigan Football games as well - Go Blue!</p>
-            <p className='mb-4'>OH! And I am a Certified Diver.</p>
+            <p className='mb-4'>Outside of work, I enjoy learning about technology, business strategy, global affairs, and the ways data shapes decision-making. I also value continuous self-development, fitness, and building practical projects that strengthen both technical and analytical skills.</p>
           </div>
         </div>
       </section>
