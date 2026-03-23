@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Hero() {
   return (
     <div className="py-10 bg-michiganBlue">
-      <div className="container mx-auto px-2 py-32 flex items-center justify-center min-h-[80vh] flex-col-reverse sm:flex-row gap-4">
+      <div className="container mx-auto px-2 py-32 flex items-center justify-center flex-col-reverse sm:flex-row gap-4">
 
   <div className="sm:w-2/3 lg:w-1/2 text-center flex flex-col items-center justify-center">
     
