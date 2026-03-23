@@ -31,13 +31,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <Image
-          className="rounded h-[600px] object-cover md:ml-auto w-[300px]"  // Custom width class
-          width={300}
-          height={600}
-          src=""
-          alt="Hassan Berro"
-        />
+ 
       </div>
     </div>
   );
