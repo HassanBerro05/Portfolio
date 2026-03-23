@@ -3,7 +3,7 @@ import ProjectSection from '@/components/projectSection';
 import { getProjectsData } from "@/lib/projects";
 
 export const metadata = {
-    title: 'Projects - Sam Berro',
+    title: 'Projects - Hassan Berro',
     icons: {
         icon: '/H.jpg',
     },
