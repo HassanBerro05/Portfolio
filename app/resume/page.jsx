@@ -22,7 +22,7 @@ export default function Resume() {
             dates: " May 2025 – Present",
             company: "Sobeys (Empire Company Limited); Digitization",
             location: "Dartmouth, NS",
-            image: "/logos/ITS.png",
+            image: "/logos/17733.png",
             bullets: [
                 {
                     text: " Operate within ERP transformation and enterprise reporting modernization initiatives, supporting SAP S/4HANA migration and business systems validation across a large Canadian retail organization",
