@@ -3,7 +3,7 @@ import Footer from '@/components/footer';
 import Button from '@/components/button';
 
 export const metadata = {
-    title: 'Resume - Sam Berro',
+    title: 'Resume - Hassan Berro',
     icons: {
         icon: '/H.jpg',
         // shortcut: '/shortcut-icon.png',
@@ -17,6 +17,27 @@ export const metadata = {
 
 export default function Resume() {
     const resume = [
+         {
+            role: "Business System Analyst",
+            dates: " May 2025 – Present",
+            company: "Sobeys (Empire Company Limited); Digitization",
+            location: "Dartmouth, NS",
+            image: "/logos/ITS.png",
+            bullets: [
+                {
+                    text: " Operate within ERP transformation and enterprise reporting modernization initiatives, supporting SAP S/4HANA migration and business systems validation across a large Canadian retail organization",
+                    subBullets: [
+                        "Executed structured User Acceptance Testing (UAT) for SAP S/4HANA finance migration, validating GL and AR data accuracy and tracking defects through resolution with IT and SAP teams.",
+                        "Queried and validated financial data mappings between legacy SAP and S/4HANA environments to ensure controlled data migration and production readiness.",
+                        "Designed Power BI dashboards using Power Query to automate GL reporting and reconciliation tracking, reducing manual reporting effort.",
+                        "Developed Tableau dashboards to analyze AR open line items, aging trends, and clearing progress, enabling targeted balance reduction initiatives.",
+                        "Built advanced Excel automation tools to identify clearing-eligible accounts across 500,000+ AR line items, supporting large-scale data cleanup.",
+                        "Designed and implemented a SharePoint and Power Automate workflow to centralize issue intake, automate tracking, and provide real-time visibility for 150+ end users."
+                        
+                    ]
+                }
+            ]
+        },
         {
             role: "Business Analyst",
             dates: "Jan 2024 – Jan 2025",
@@ -25,12 +46,13 @@ export default function Resume() {
             image: "/logos/siyana.png",
             bullets: [
                 {
-                    text: "Siyana is a startup maintenance service provider company with an office in Beirut (LB)",
+                    text: "Supported business intelligence, financial modelling, and reporting automation initiatives within a strategy-focused environment",
                     subBullets: [
-                        "Designed, documented, and tested the sales team portal, leading User Acceptance Testing (UAT) and regression testing to ensure reliable output, which reduced reporting time by 30% and increased operational efficiency.",
-                        "Managed stakeholder communication, gathering input from cross-functional teams (sales, IT, management) to align portal features with business needs, resulting in a 25% improvement in user adoption and continuous portal enhancements.",
-                        "Conducted advanced financial forecasting, leveraging predictive analytics to refine revenue projections, leading to a 15% improvement in budget accuracy.",
-                        "Analyzed financial data to develop a subscription-based revenue model, working with IT, Sales, and Marketing to ensure profitability and secure executive buy-in, resulting in a 25% increase in recurring revenue."
+                        "Automated financial and operational reporting using SQL and Tableau, reducing manual processing time by 50% and improving reporting turnaround.",
+                        "Developed regression-based forecasting models that improved budget accuracy by 15% and supported data-driven planning decisions.",
+                        "Built a machine learning–based customer segmentation model to refine targeting strategy, increasing campaign efficiency by 20%.",
+                        "Co-developed a subscription revenue model, analyzing pricing elasticity and churn scenarios to support strategic launch planning.",
+                        "Prepared investor-facing financial analyses and projections contributing to the successful raise of $100K in seed funding."
             
                     ]
                 },
@@ -46,11 +68,10 @@ export default function Resume() {
             image: "/logos/ITS.png",
             bullets: [
                 {
-                    text: "ITS is the information and Technology Services department that provides technology and communications services in support of UM-Ann Arbor's academic and research needs",
+                    text: "Delivered institutional reporting and dashboard solutions focused on digital accessibility and compliance visibility",
                     subBullets: [
                         "Conducted a deep dive analysis of accessibility tool usage across 800+ online courses, leading to policy changes that improved accessibility for 3,000+ students.",
                         "Engineered Tableau dashboards to provide clear visual insights into accessibility compliance, increasing faculty engagement by 40%.",
-                        "Developed custom key performance indicators (KPIs) that enhanced institutional tracking and reporting, resulting in measurable improvements in digital accessibility.",
                         "Utilized Excel tool for advanced statistical data analysis, detecting trends, anomalies, and inefficiencies.",
                         "Facilitated collaborative discussions with faculty to effectively integrate analytics-driven recommendations into course design."
                         
@@ -66,13 +87,11 @@ export default function Resume() {
             image: "/logos/BSL.jpeg",
             bullets: [
                 {
-                    text: "BSL bank is a mid-sized bank in Lebanon that operates in the retail and commercial banking sector alongside the treasury and capital markets",
+                    text: "Supported credit analysis and financial process improvement within the commercial banking division",
                     subBullets: [
-                        "Analyzed financial statements to streamline credit assessments, cutting loan turnaround time by 30%.",
-                        "Supported risk assessments by identifying high-risk clients and mitigating financial exposure.",
-                        "Automated client data tracking, boosting data accuracy by 20% and ensuring regulatory compliance.",
-                        "Developed benchmarking reports that informed loan structuring and investment decisions.",
-                        "Cultivated strong client relationships through proactive financial guidance, enhancing customer satisfaction."
+                        "Streamlined credit evaluation workflows, reducing loan turnaround time by 30%.",
+                        "Automated client documentation tracking to improve compliance accuracy and data integrity.",
+                       
                        
                     ]
                 }
