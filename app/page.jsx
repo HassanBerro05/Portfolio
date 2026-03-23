@@ -8,7 +8,7 @@ import ProjectSection from '@/components/projectSection';
 import { getProjectsData } from "@/lib/projects"
 
 export const metadata = {
-  title: 'Hassan Berro',
+  title: 'Sam Berro',
   icons: {
     icon: '/H.jpg',
     // shortcut: '/shortcut-icon.png',
@@ -35,7 +35,7 @@ export default async function Home() {
             alt="Dive"
           />
           <div className='lg:w-1/2'>
-            <h2 className='text-3xl font-bold mb-2'>AAA little more about me</h2>
+            <h2 className='text-3xl font-bold mb-2'>A little more about me</h2>
             <p className='mb-2'>My academic journey, encompassing a Master&rsquo;s in Business Analytics and a Bachelor&rsquo;s in Banking and Finance, has provided me with a solid foundation in data analysis, financial modeling, and strategic decision-making. This combination of analytical and business acumen allows me to approach challenges with a holistic perspective, bridging the gap between data insights and actionable solutions.</p>
 
             <p className="mb-2"> I am currently embarking on a new chapter in my career, driven by a passion for leveraging data to solve real-world problems. As a lifelong learner, I am always eager to expand my knowledge and stay ahead in this ever-evolving field. My recent projects include developing analytical models to address pressing issues like the Flint Water Crisis and evaluating tools like UDOIT to enhance accessibility in education. I am actively seeking opportunities where I can apply my data skills, contribute meaningfully, and continue to grow both personally and professionally. Through my work, I aim to make a lasting impact while embracing continuous learning and development.
