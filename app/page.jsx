@@ -27,7 +27,7 @@ export default async function Home() {
   <section className="py-10 bg-michiganBlue">
     <div className="container mx-auto px-2 py-32 flex items-center justify-center min-h-[80vh] gap-8">
       <div className="lg:w-1/2 text-center flex flex-col items-center justify-center">
-        <h2 className="text-3xl font-bold mb-4">A little more about me</h2>
+        <h2 className="text-3xl font-bold mb-4 text-yellow-400">A little more about me</h2>
 
         <p className="mb-4 max-w-3xl">
           I hold a Master’s degree in Business Analytics and a Bachelor’s degree in Banking and
