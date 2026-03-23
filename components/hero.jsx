@@ -8,11 +8,11 @@ export default function Hero() {
           <h1 className="text-5xl font-extrabold self-align-center">
             I&apos;m{' '}
             <span className style={{ color: '#FFCB05' }}>
-              Sam
+              Hassan
             </span>
           </h1>
           <p className="mt-2">
-          University of Michigan graduate currently seeking a data or business analyst role, with a strong foundation in data, business, and financial analytics. I excel on solving complex problems, leveraging data-driven insights, and delivering impactful solutions. 
+          Business Analyst and Financial Analyst with experience in SAP transformation, process improvement, Power BI, Power Query, SQL, and automation. I specialize in turning complex business and finance data into clear insights, streamlined workflows, and practical solutions that support decision-making.
           </p>
           <div className="flex justify-start gap-5 pt-2 flex-wrap">
 
@@ -35,7 +35,7 @@ export default function Hero() {
           className="rounded h-[600px] object-cover md:ml-auto w-[300px]"  // Custom width class
           width={300}
           height={600}
-          src="/Hassan1.png"
+          src=""
           alt="Hassan Berro"
         />
       </div>
