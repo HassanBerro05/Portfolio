@@ -50,7 +50,7 @@ export default async function Home() {
           deeper expertise in analytics, automation, and technology-driven transformation.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">Core Skills</h2>
+        <h2 className="text-2xl font-bold mb-4 text-yellow-400">Core Skills</h2>
 
         <p className="mb-6 max-w-3xl">
           My core skills include business analysis, financial analysis, process improvement, data
@@ -59,7 +59,7 @@ export default async function Home() {
           platforms to turn business needs into structured, actionable solutions.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">Interests</h2>
+        <h2 className="text-2xl font-bold mb-4 text-yellow-400">Interests</h2>
 
         <p className="mb-4 max-w-3xl">
           Outside of work, I enjoy learning about technology, business strategy, global affairs,
