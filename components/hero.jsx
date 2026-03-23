@@ -14,7 +14,7 @@ export default function Hero() {
           <p className="mt-2">
           Business Analyst and Financial Analyst with experience in SAP transformation, process improvement, Power BI, Power Query, SQL, and automation. I specialize in turning complex business and finance data into clear insights, streamlined workflows, and practical solutions that support decision-making.
           </p>
-          <div className="flex justify-start gap-5 pt-2 flex-wrap">
+          <div className="flex justify-center gap-5 pt-2 flex-wrap">
 
             <Link
               className="border-sky-600 border-4 p-4 rounded hover:-translate-y-1 drop-shadow-md"
