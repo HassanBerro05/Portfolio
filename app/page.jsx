@@ -8,7 +8,7 @@ import ProjectSection from '@/components/projectSection';
 import { getProjectsData } from "@/lib/projects"
 
 export const metadata = {
-  title: 'Sam Berro',
+  title: 'Hassan Berro',
   icons: {
     icon: '/H.jpg',
     // shortcut: '/shortcut-icon.png',
